@@ -1,0 +1,65 @@
+🖼️ Neural Style Transfer with PyTorch
+📌 Overview
+
+This project implements Neural Style Transfer (NST) using a pretrained VGG19 model in PyTorch. It blends the content of one image with the artistic style of another, creating visually stunning AI-generated artworks.
+
+🚀 Features
+
+Pretrained VGG19 for feature extraction
+
+Gram matrix-based style representation
+
+Adjustable content vs. style weights for balance
+
+Optimized using LBFGS
+
+Side-by-side visualization (Content, Style, Result)
+
+Saves stylized output automatically
+
+🛠️ Installation
+
+Clone this repo and install dependencies:
+
+git clone https://github.com/your-username/neural-style-transfer.git
+cd neural-style-transfer
+pip install -r requirements.txt
+
+▶️ Usage
+
+Place your content image as content.jpg
+
+Place your style image as style.jpg
+
+Run the script:
+
+python style_transfer.py
+
+
+The result will be saved as style_prominent_result.png
+
+	
+	
+📚 Tech Stack
+
+Python
+
+PyTorch (torch, torchvision)
+
+Matplotlib, Pillow, NumPy
+
+✨ Future Improvements
+
+Add Streamlit web app for interactive style transfer
+
+Support for multiple style blending
+
+GPU optimization for faster results
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to modify.
+
+
+
+MIT License – feel free to use and modify.
